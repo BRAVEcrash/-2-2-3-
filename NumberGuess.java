@@ -9,21 +9,21 @@ public class NumberGuess {
         Scanner scanner = new Scanner(System.in);
         int guess, attempts = 0;
 
-        System.out.println("(Problem 2) ============");
+        System.out.println("(2번문제) ============");
         while (true) {
-            System.out.print("Guess the answer: ");
+            System.out.print("정답을 추측하여 보시오: ");
             guess = scanner.nextInt();
             attempts++;
 
             if (guess < answer) {
-                System.out.println("The given integer is low.");
+                System.out.println("제시한 정수가 낮습니다.");
             } else if (guess > answer) {
-                System.out.println("The given integer is high.");
+                System.out.println("제시한 정수가 높습니다.");
             } else {
-                System.out.println("Congratulations. Number of attempts = " + attempts);
+                System.out.println("축하합니다. 시도횟수 = " + attempts);
                 break;
             }
         }
-        System.out.println("(End of 2) ============");
+        System.out.println("(2번종료) ============");
     }
 }

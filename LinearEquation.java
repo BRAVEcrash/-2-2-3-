@@ -1,7 +1,7 @@
 public class LinearEquation {
 
     public void compute() {
-        System.out.println("(Problem 3) ============");
+        System.out.println("(3번문제) ============");
 
         for (int x = 0; x <= 100; x++) {
             for (int y = 0; y <= 100; y++) {
@@ -11,6 +11,6 @@ public class LinearEquation {
             }
         }
 
-        System.out.println("(End of 3) ============");
+        System.out.println("(3번종료) ============");
     }
 }
